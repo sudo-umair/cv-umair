@@ -671,8 +671,7 @@
 % Define a line of cv information(certification)
 % Usage: \cvcert{<title>}{<issuer>}{<date>}{<credential_id>}
 \newcommand*{\cvcert}[4]{%
-  \certtitlestyle{#1} & \certdatestyle{#3} \\
-  \certissuerstyle{#2} & \certidstyle{#4} \\
+  \certtitlestyle{#1}, \certissuerstyle{#2} & \certdatestyle{#3} \\
 }
 
 % Define an environment for cvskill
