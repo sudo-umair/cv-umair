@@ -280,6 +280,7 @@ This project uses the Awesome CV template with the following licenses:
 
 - **GitHub**: [sudo-umair](https://github.com/sudo-umair)
 - **LinkedIn**: [sudo-umair](https://linkedin.com/in/sudo-umair)
+- **Portfolio**: [Portfolio](https://portfolio-umair-five.vercel.app)
 
 ## 🤝 Contributing
 
