@@ -214,13 +214,13 @@
 \newcommand*{\subdescriptionstyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
 % For elements of honor
-\newcommand*{\honortitlestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\color{graytext} #1}}
-\newcommand*{\honorpositionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\honortitlestyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text} #1}}
+\newcommand*{\honorpositionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\mdseries\color{text} #1}}
 \newcommand*{\honordatestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\color{graytext} #1}}
 \newcommand*{\honorlocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
 
 % For elements of certification
-\newcommand*{\certtitlestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\color{darktext} #1}}
+\newcommand*{\certtitlestyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 \newcommand*{\certissuerstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{awesome} #1}}
 \newcommand*{\certdatestyle}[1]{{\fontsize{8pt}{1em}\bodyfont\color{graytext} #1}}
 \newcommand*{\certidstyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
