@@ -642,36 +642,32 @@
 \newenvironment{cvhonors}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-2mm}
-  \begin{center}
-    \setlength\tabcolsep{0pt}
-    \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 3.0cm} R{3.0cm}}
+  \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+    \setlength{\parskip}{0pt}
+    \renewcommand{\labelitemi}{\bullet}
 }{%
-    \end{tabular*}
-  \end{center}
+  \end{itemize}
 }
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvhonor{<position>}{<title>}{<location>}{<date>}
 \newcommand*{\cvhonor}[4]{%
-  \honorpositionstyle{#1}, \honortitlestyle{#2}, \certissuerstyle{#3} & \certdatestyle{#4} \\
+  \item \honorpositionstyle{#1}, \honortitlestyle{#2}, \certissuerstyle{#3} \hfill \certdatestyle{#4}
 }
 
 % Define an environment for cvcertifications
 \newenvironment{cvcertifications}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-2mm}
-  \begin{center}
-    \setlength\tabcolsep{0pt}
-    \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 3.0cm} R{3.0cm}}
+  \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
+    \setlength{\parskip}{0pt}
+    \renewcommand{\labelitemi}{\bullet}
 }{%
-    \end{tabular*}
-  \end{center}
+  \end{itemize}
 }
 % Define a line of cv information(certification)
 % Usage: \cvcert{<title>}{<issuer>}{<date>}{<credential_id>}
 \newcommand*{\cvcert}[4]{%
-  \certtitlestyle{#1}, \certissuerstyle{#2} & \certdatestyle{#3} \\
+  \item \certtitlestyle{#1}, \certissuerstyle{#2} \hfill \certdatestyle{#3}
 }
 
 % Define an environment for cvskill
