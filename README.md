@@ -191,8 +191,8 @@ To add or remove sections, modify the input statements in `resume.tex`:
 
 ```latex
 \input{resume/summary.tex}
-\input{resume/skills.tex}
 \input{resume/experience.tex}
+\input{resume/skills.tex}
 % Add or comment out sections as needed
 ```
 
@@ -245,8 +245,8 @@ latexmk -xelatex resume.tex
 ### Resume Sections
 
 1. **Summary** - Professional overview and career objectives
-2. **Skills** - Technical competencies and tools
-3. **Experience** - Work history and achievements
+2. **Experience** - Work history and achievements
+3. **Skills** - Technical competencies and tools
 4. **Projects** - Portfolio of significant projects
 5. **Education** - Academic background
 6. **Honors** - Awards and recognitions
@@ -258,6 +258,18 @@ latexmk -xelatex resume.tex
 - Professional formatting
 - Customizable content sections
 - Print-ready layout
+
+### Cover Letter Customization
+
+The cover letter includes placeholders for easy personalization. Before each application, find and replace:
+
+| Placeholder | Replace With |
+|-------------|--------------|
+| `[ROLE]` | Job title (e.g., "Senior Frontend Engineer") |
+| `[COMPANY_NAME]` | Company name |
+| `[HIRING_MANAGER_NAME]` | Hiring manager's name (or "Hiring Manager" if unknown) |
+
+Also update the "Why [COMPANY_NAME]" section with 1-2 sentences about why you're interested in the specific company.
 
 ## 📝 License Information
 
@@ -280,7 +292,7 @@ This project uses the Awesome CV template with the following licenses:
 
 - **GitHub**: [sudo-umair](https://github.com/sudo-umair)
 - **LinkedIn**: [sudo-umair](https://linkedin.com/in/sudo-umair)
-- **Portfolio**: [Portfolio](https://portfolio-umair-five.vercel.app)
+- **Portfolio**: [umair-dev.vercel.app](https://umair-dev.vercel.app)
 
 ## 🤝 Contributing
 
@@ -309,4 +321,4 @@ For questions about this CV template, LaTeX setup, or professional inquiries:
 
 _Built with the Awesome CV LaTeX template - A professional and elegant CV template for LaTeX users._
 
-_Last updated: December 2024_
+_Last updated: January 2026_
